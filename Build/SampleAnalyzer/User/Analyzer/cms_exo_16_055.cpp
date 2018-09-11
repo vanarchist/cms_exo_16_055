@@ -8,9 +8,17 @@ using namespace std;
 // -----------------------------------------------------------------------------
 bool cms_exo_16_055::Initialize(const MA5::Configuration& cfg, const std::map<std::string,std::string>& parameters)
 {
-  cout << "BEGIN Initialization" << endl;
-  // initialize variables, histos
-  cout << "END   Initialization" << endl;
+  // Information on the analysis, authors, ...
+  INFO << "      <><><><><><><><><><><><><><><><><><><><><><><><><>" << endmsg;
+  INFO << "      <>   Analysis: CMS-EXO-16-055, arXiv:1806.04771 <>" << endmsg;
+  INFO << "      <>             (?)                              <>" << endmsg;
+  INFO << "      <>   Recaster: Benjamin Fuks                    <>" << endmsg;
+  INFO << "      <>   Contact:  fuks@lpthe.jussieu.fr            <>" << endmsg;
+  INFO << "      <>   Based on MadAnalysis 5 v1.6                <>" << endmsg;
+  INFO << "      <>   DOI: XX.YYYY/ZZZ                           <>" << endmsg;
+  INFO << "      <>   Please cite arXiv:1709.nnnnn [hep-ph]      <>" << endmsg;
+  INFO << "      <><><><><><><><><><><><><><><><><><><><><><><><><>" << endmsg;
+
   return true;
 }
 
